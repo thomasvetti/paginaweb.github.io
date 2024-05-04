@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang= "en"> <!--aque se define el idioma de la pagina web-->
+    <head> <!--aqui va a ir todo lo que es esencial para la pagina web pero no es mostrada en esta-->
+        <meta charset="UTF-8"> <!-- esto es para la codificacion de caracteres, basicamente es para mostrar caracteres especiales osea para la ñ -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--esto sirve para adaptar la pagina web a diferentes dispositivos y ventanas-->
+        <link rel="stylesheet" href="style.css"> <!--para aplicar estilos a la pagina, esto va a permitir usar css-->
+        <title>Pagina web modelados de software</title> <!-- aqui va el titulo de la pagina web-->
+    </head>
+    
+<body>
+    <nav>
+        <ul class="menu-horizontal">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="tabla.html">Horario</a></li>
+            <li><a href="portafolio.html">portafolio</a></li>
+
+        </ul>
+    </nav>
+    <section class="post-list"> <!--esto sirve para crear una seccion que contiene las listas, en este caso va a conterner las publicaciones--> <!-- las clases, sirven para luego dar estilos o cuadrar elementos-->
+        <div class="content"> <!-- contenedor para el contenido de la seccion-->
+            <article class="post"> <!-- para cada articulo se va a necesitar uno de estos ya que se representan individualmente, la clase post la hace independiente -->
+                <div class="post-header"> <!-- encabezado ded la publicacion -->
+                <div class="post-img-1"></div> <!-- aqui es donde va a ir la imagen  -->
+                </div>
+                <div class="post-body"> <!--parte principal del cuerpo de la noticia, basicamente donde va la noticia -->
+                    <span>12 octubre, octubre 2024 | Noticia 1</span>
+                    <h2> NACION </h2>
+                    <p class="descripcion">Juan Guillermo Monsalve: el testimonio ante la Corte en el que magistrada le dice “Juan”, se ríe a carcajadas y afirma que la cárcel es un “infierno”</p> <!-- hasta aqui llega el cuerpo de la noticia -->
+                    <a href="publicacion1.html" class="post-link"> Leer más</a> <!-- donde se va a almacenar el link que redirige a la noticia -->
+                </div>
+            </article>
+            <article class="post"> 
+                <div class="post-header"> 
+                <div class="post-img-2"></div> 
+                </div>
+                <div class="post-body"> 
+                    <span>12 octubre, octubre 2024 | Noticia 2</span>
+                    <h2>CIENCIA</h2>
+                    <p class="descripcion"> Murió Peter Higgs, ganador del Nobel que detestó el nombre de “la partícula de Dios” que le pusieron a su descubrimiento</p> 
+                    <a href="publicacion2.html" class="post-link"> Leer más</a> 
+                </div>
+            </article>    
+            <article class="post"> 
+                <div class="post-header"> 
+                <div class="post-img-3"></div> 
+                </div>
+                <div class="post-body"> 
+                    <span>12 octubre, octubre 2024 | Noticia 3</span>
+                    <h2>CIENCIA</h2>
+                    <p class="descripcion">Durante siglos, científicos han especulado sobre el rayo de la muerte de Arquímedes. Con solo 13 años, este estudiante creó una versión en miniatura</p> 
+                    <a href="publicacion3.html" class="post-link"> Leer más</a> 
+                </div>
+            </article>    
+            <article class="post"> 
+                <div class="post-header"> 
+                <div class="post-img-4"></div> 
+                </div>
+                <div class="post-body"> 
+                    <span>12 octubre, octubre 2024 | Noticia 4</span>
+                    <h2>CRIMEN</h2>
+                    <p class="descripcion">El asesinato de un lechero veterano de la Segunda Guerra Mundial en 1968 ha sido resuelto 56 años después</p> 
+                    <a href="publicacion4.html" class="post-link"> Leer más</a> 
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
